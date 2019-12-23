@@ -2,6 +2,6 @@ class EventsController < ApplicationController
   def index
     @random_number = rand(100)
 
-    @events = ["BugSmash", "Hackathon", "CodeCamp"]
+    @events = Event.all
   end
 end
