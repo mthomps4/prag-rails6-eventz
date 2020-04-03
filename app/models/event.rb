@@ -6,6 +6,10 @@ class Event < ApplicationRecord
     price.zero? || price.blank?
   end
 
+  def asdf
+    'asdf'
+  end
+
   def thing
     "#{name} a thing"
   end
